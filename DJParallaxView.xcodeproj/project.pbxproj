@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6431256A22316C4B008BBEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6431256922316C4B008BBEC8 /* AppDelegate.swift */; };
+		6431256C22316C4B008BBEC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6431256B22316C4B008BBEC8 /* ViewController.swift */; };
+		6431256F22316C4B008BBEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6431256D22316C4B008BBEC8 /* Main.storyboard */; };
+		6431257122316C4E008BBEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6431257022316C4E008BBEC8 /* Assets.xcassets */; };
+		6431257422316C4E008BBEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6431257222316C4E008BBEC8 /* LaunchScreen.storyboard */; };
+		6431257F22316C4E008BBEC8 /* DJParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6431257E22316C4E008BBEC8 /* DJParallaxViewTests.swift */; };
+		6431258A22316C4E008BBEC8 /* DJParallaxViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6431258922316C4E008BBEC8 /* DJParallaxViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6431257B22316C4E008BBEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6431255E22316C4B008BBEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6431256522316C4B008BBEC8;
+			remoteInfo = DJParallaxView;
+		};
+		6431258622316C4E008BBEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6431255E22316C4B008BBEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6431256522316C4B008BBEC8;
+			remoteInfo = DJParallaxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6431256622316C4B008BBEC8 /* DJParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6431256922316C4B008BBEC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6431256B22316C4B008BBEC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6431256E22316C4B008BBEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6431257022316C4E008BBEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6431257322316C4E008BBEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6431257522316C4E008BBEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6431257A22316C4E008BBEC8 /* DJParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6431257E22316C4E008BBEC8 /* DJParallaxViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJParallaxViewTests.swift; sourceTree = "<group>"; };
+		6431258022316C4E008BBEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6431258522316C4E008BBEC8 /* DJParallaxViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJParallaxViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6431258922316C4E008BBEC8 /* DJParallaxViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJParallaxViewUITests.swift; sourceTree = "<group>"; };
+		6431258B22316C4E008BBEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6431256322316C4B008BBEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6431257722316C4E008BBEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6431258222316C4E008BBEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6431255D22316C4B008BBEC8 = {
+			isa = PBXGroup;
+			children = (
+				6431256822316C4B008BBEC8 /* DJParallaxView */,
+				6431257D22316C4E008BBEC8 /* DJParallaxViewTests */,
+				6431258822316C4E008BBEC8 /* DJParallaxViewUITests */,
+				6431256722316C4B008BBEC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6431256722316C4B008BBEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6431256622316C4B008BBEC8 /* DJParallaxView.app */,
+				6431257A22316C4E008BBEC8 /* DJParallaxViewTests.xctest */,
+				6431258522316C4E008BBEC8 /* DJParallaxViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6431256822316C4B008BBEC8 /* DJParallaxView */ = {
+			isa = PBXGroup;
+			children = (
+				6431256922316C4B008BBEC8 /* AppDelegate.swift */,
+				6431256B22316C4B008BBEC8 /* ViewController.swift */,
+				6431256D22316C4B008BBEC8 /* Main.storyboard */,
+				6431257022316C4E008BBEC8 /* Assets.xcassets */,
+				6431257222316C4E008BBEC8 /* LaunchScreen.storyboard */,
+				6431257522316C4E008BBEC8 /* Info.plist */,
+			);
+			path = DJParallaxView;
+			sourceTree = "<group>";
+		};
+		6431257D22316C4E008BBEC8 /* DJParallaxViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6431257E22316C4E008BBEC8 /* DJParallaxViewTests.swift */,
+				6431258022316C4E008BBEC8 /* Info.plist */,
+			);
+			path = DJParallaxViewTests;
+			sourceTree = "<group>";
+		};
+		6431258822316C4E008BBEC8 /* DJParallaxViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6431258922316C4E008BBEC8 /* DJParallaxViewUITests.swift */,
+				6431258B22316C4E008BBEC8 /* Info.plist */,
+			);
+			path = DJParallaxViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6431256522316C4B008BBEC8 /* DJParallaxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6431258E22316C4E008BBEC8 /* Build configuration list for PBXNativeTarget "DJParallaxView" */;
+			buildPhases = (
+				6431256222316C4B008BBEC8 /* Sources */,
+				6431256322316C4B008BBEC8 /* Frameworks */,
+				6431256422316C4B008BBEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJParallaxView;
+			productName = DJParallaxView;
+			productReference = 6431256622316C4B008BBEC8 /* DJParallaxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6431257922316C4E008BBEC8 /* DJParallaxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6431259122316C4E008BBEC8 /* Build configuration list for PBXNativeTarget "DJParallaxViewTests" */;
+			buildPhases = (
+				6431257622316C4E008BBEC8 /* Sources */,
+				6431257722316C4E008BBEC8 /* Frameworks */,
+				6431257822316C4E008BBEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6431257C22316C4E008BBEC8 /* PBXTargetDependency */,
+			);
+			name = DJParallaxViewTests;
+			productName = DJParallaxViewTests;
+			productReference = 6431257A22316C4E008BBEC8 /* DJParallaxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6431258422316C4E008BBEC8 /* DJParallaxViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6431259422316C4E008BBEC8 /* Build configuration list for PBXNativeTarget "DJParallaxViewUITests" */;
+			buildPhases = (
+				6431258122316C4E008BBEC8 /* Sources */,
+				6431258222316C4E008BBEC8 /* Frameworks */,
+				6431258322316C4E008BBEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6431258722316C4E008BBEC8 /* PBXTargetDependency */,
+			);
+			name = DJParallaxViewUITests;
+			productName = DJParallaxViewUITests;
+			productReference = 6431258522316C4E008BBEC8 /* DJParallaxViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6431255E22316C4B008BBEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dheeraj Sontakke";
+				TargetAttributes = {
+					6431256522316C4B008BBEC8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6431257922316C4E008BBEC8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6431256522316C4B008BBEC8;
+					};
+					6431258422316C4E008BBEC8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6431256522316C4B008BBEC8;
+					};
+				};
+			};
+			buildConfigurationList = 6431256122316C4B008BBEC8 /* Build configuration list for PBXProject "DJParallaxView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6431255D22316C4B008BBEC8;
+			productRefGroup = 6431256722316C4B008BBEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6431256522316C4B008BBEC8 /* DJParallaxView */,
+				6431257922316C4E008BBEC8 /* DJParallaxViewTests */,
+				6431258422316C4E008BBEC8 /* DJParallaxViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6431256422316C4B008BBEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6431257422316C4E008BBEC8 /* LaunchScreen.storyboard in Resources */,
+				6431257122316C4E008BBEC8 /* Assets.xcassets in Resources */,
+				6431256F22316C4B008BBEC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6431257822316C4E008BBEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6431258322316C4E008BBEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6431256222316C4B008BBEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6431256C22316C4B008BBEC8 /* ViewController.swift in Sources */,
+				6431256A22316C4B008BBEC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6431257622316C4E008BBEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6431257F22316C4E008BBEC8 /* DJParallaxViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6431258122316C4E008BBEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6431258A22316C4E008BBEC8 /* DJParallaxViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6431257C22316C4E008BBEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6431256522316C4B008BBEC8 /* DJParallaxView */;
+			targetProxy = 6431257B22316C4E008BBEC8 /* PBXContainerItemProxy */;
+		};
+		6431258722316C4E008BBEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6431256522316C4B008BBEC8 /* DJParallaxView */;
+			targetProxy = 6431258622316C4E008BBEC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6431256D22316C4B008BBEC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6431256E22316C4B008BBEC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6431257222316C4E008BBEC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6431257322316C4E008BBEC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6431258C22316C4E008BBEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6431258D22316C4E008BBEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6431258F22316C4E008BBEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJParallaxView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeraj.DJParallaxView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6431259022316C4E008BBEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJParallaxView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeraj.DJParallaxView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6431259222316C4E008BBEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJParallaxViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeraj.DJParallaxViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJParallaxView.app/DJParallaxView";
+			};
+			name = Debug;
+		};
+		6431259322316C4E008BBEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJParallaxViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeraj.DJParallaxViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJParallaxView.app/DJParallaxView";
+			};
+			name = Release;
+		};
+		6431259522316C4E008BBEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJParallaxViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeraj.DJParallaxViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJParallaxView;
+			};
+			name = Debug;
+		};
+		6431259622316C4E008BBEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJParallaxViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dheeraj.DJParallaxViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJParallaxView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6431256122316C4B008BBEC8 /* Build configuration list for PBXProject "DJParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6431258C22316C4E008BBEC8 /* Debug */,
+				6431258D22316C4E008BBEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6431258E22316C4E008BBEC8 /* Build configuration list for PBXNativeTarget "DJParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6431258F22316C4E008BBEC8 /* Debug */,
+				6431259022316C4E008BBEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6431259122316C4E008BBEC8 /* Build configuration list for PBXNativeTarget "DJParallaxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6431259222316C4E008BBEC8 /* Debug */,
+				6431259322316C4E008BBEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6431259422316C4E008BBEC8 /* Build configuration list for PBXNativeTarget "DJParallaxViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6431259522316C4E008BBEC8 /* Debug */,
+				6431259622316C4E008BBEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6431255E22316C4B008BBEC8 /* Project object */;
+}
